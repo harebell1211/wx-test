@@ -1,0 +1,27 @@
+{
+  "name": "cat-paradise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node esbuild/dev.server.mjs -w",
+    "build": "node esbuild/build.prod.mjs",
+    "build:watch": "node esbuild/build.prod.mjs --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.85.2"
+  },
+  "devDependencies": {
+    "@jgoz/esbuild-plugin-livereload": "^2.0.5",
+    "args-parser": "^1.3.0",
+    "esbuild": "^0.23.1",
+    "esbuild-plugin-clean": "^1.0.1",
+    "esbuild-plugin-copy": "^2.1.1",
+    "esbuild-plugin-inline-image": "^0.0.9",
+    "esbuild-serve": "^1.0.1",
+    "typescript": "^5.4.5"
+  }
+}

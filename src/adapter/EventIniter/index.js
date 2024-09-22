@@ -1,0 +1,1 @@
+export { initTouchEvent } from './TouchEvent'
